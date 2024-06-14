@@ -1,0 +1,70 @@
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+/* 
+.option-one-screen, 
+.option-two-screen, 
+.option-one-end, 
+.option-two-end  {
+   display:none;
+}
+*/
+
+
+/* Feel free to change any of the styling below!*/
+html{
+    background: saddlebrown;
+}
+head{
+    background: saddlebrown;
+}
+/* Style the body with a background color or image if desired */
+body {
+    font-family: rangoFont;
+    background-color: sandybrown;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the title of your story */
+
+.intro-buttons span{
+    margin: 50px;
+    padding: 50px;
+    background-color: saddlebrown;
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.button-one{
+    border-radius: 25px;
+    background: saddlebrown;
+    padding: 20px;
+}
+.button-two{
+    border-radius: 25px;
+    background: saddlebrown;
+    padding: 20px;
+}
+.words{
+    border-radius: 25px;
+    background: saddlebrown;
+    padding: 20px;
+}
+.rango{
+    border-radius: 25px;
+    background: saddlebrown;
+    padding: 20px;
+}
+.hidden {
+    display: none;
+}
+.show {
+   display: inline;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Unit 3 Project</title>
+    </head>
+    <link rel="stylesheet" href="startPage.css">
+    <script defer src="startPage.js"></script>
+    
+    <body>
+
+        <div class="intro">
+            <audio class = "music" controls autoplay>
+                <source src="audiomass-output.mp3" type="audio/mpeg">
+              </audio>
+            <img class="rango" src="https://media.tenor.com/Mf7QwD8YsqgAAAAM/rango-cowboy.gif" width="100%">
+        <img class="words" src="afbe5696309e879c6d0310ee5b188dfe.png" width="90%">
+        <br><br>
+          <div class="row">
+            <div class="button-1">
+                <a href="index.html">
+                <button><img src="699a4a0192c17bf761f44e6edd000015.png" alt="Snow" style="width:90%"></button>
+                </a>     
+            </div>
+            <div class="button-2">
+                <button type='button' onclick="toggleTextContext()"><img src="1727ae82a1ea8b128d104112b6b84dcb.png" alt="Forest" style="width:100%"></button>
+                <p class="contextText" id='context' style='display: none'>You were once a pet chameleon living in a terrarium, immersed in an imaginary world of heroic deeds and grand adventures. But when an unfortunate accident sends you tumbling out of your owner's vehicle and into the harsh desert landscape, you find yourself in the real-life Wild West, facing the challenges of survival and identity in a world that's far different from your fantasies.</p>
+            </div>
+            <div class="button-3">
+                <button type='button' onclick="toggleTextCredits()"><img src="35ef74367665e6e63b78bf14f09ff922.png" alt="Mountains" style="width:100%"></button>
+                <p class = "creditsText" id='credits' style='display: none'>Characters and Logo: Nickelodeon Movies <br>Code: Sam Vargas <br>Large sections of text: Chat GPT <br>Edit: Wuko on YouTube<br> Font: Font Meme</p>
+            </div>
+          </div>
+        </body>
+</html>
